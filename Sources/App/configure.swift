@@ -24,7 +24,7 @@ public func configure(_ app: Application) throws {
         return
     }
     
-    app.http.server.configuration.hostname = "http://195.133.48.73"
+    app.http.server.configuration.hostname = "195.133.48.73"
     
     TGBot.log.logLevel = .error
     
